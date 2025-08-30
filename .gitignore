@@ -1,0 +1,23 @@
+# Ignore virtual environment
+venv/
+.env
+
+# Ignore cache & temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pickle
+
+# Ignore Jupyter & VS Code configs
+.ipynb_checkpoints/
+.vscode/
+
+# Ignore OneDrive sync junk
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+
+# Ignore HuggingFace cache
+~/.cache/huggingface/
